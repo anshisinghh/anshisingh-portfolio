@@ -9,7 +9,7 @@ const About = () => {
       <Reveal initialX={-25} delay={0.2}>
         <div className="flex flex-col gap-[13px] items-center md:gap-[34px] md:my-[58px] md:mr-[35px] md:items-start">
           <h1 className="text-2xl/1 text-center font-semibold block md:text-[40px] md:text-start md:inline">
-            Hi! I'm Anshi Singh{" "}
+            Hi! I&apos;m Anshi Singh{" "}
             <span className="block text-[27px] highlight mt-2 md:text-[45px] md:inline md:mt-0">
               Software Engineer
             </span>

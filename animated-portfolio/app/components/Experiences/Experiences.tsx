@@ -3,7 +3,6 @@ import experiences from "@/data/experiences.json";
 import SectionContainer from "../Section/SectionContainer";
 import SectionHeader from "../Section/SectionHeader";
 import Experience from "./Experience";
-import Image from "next/image";
 
 const Experiences = () => {
   return (
