@@ -1,26 +1,95 @@
 [
     {
-        "name": "Java",
-        "icon": "/java_icon.png"
+      "name": "C++",
+      "icon": "logos:c-plus-plus"
     },
     {
-        "name": "JavaScript",
-        "icon": "/js_icon.png"
+        "name": "C",
+        "icon": "logos:c-lang"
+      },
+    {
+      "name": "C#",
+      "icon": "logos:c-sharp"
     },
     {
-        "name": "HTML",
-        "icon": "/html_icon.png"
+      "name": "Python",
+      "icon": "logos:python"
     },
     {
-        "name": "CSS",
-        "icon": "/css_icon.png"
+      "name": "JavaScript",
+      "icon": "logos:javascript"
+    },
+    {
+        "name": "TypeScript (Vue.js, React)",
+        "icon": "logos:typescript"
+    },
+    {
+        "name": "Vue.js",
+        "icon": "logos:vue"
     },
     {
         "name": "React",
-        "icon": "/react_icon.png"
+        "icon": "logos:react"
     },
     {
-        "name": "TypeScript",
-        "icon": "/ts_icon.png"
+      "name": "Swift",
+      "icon": "logos:swift"
+    },
+    {
+      "name": "HTML",
+      "icon": "logos:html-5"
+    },
+    {
+        "name": "CSS",
+        "icon": "logos:css"
+      },
+    {
+      "name": "AWS",
+      "icon": "logos:aws"
+    },
+    {
+      "name": "Git",
+      "icon": "logos:git"
+    },
+    {
+      "name": "Docker",
+      "icon": "logos:docker"
+    },
+    {
+      "name": "Figma",
+      "icon": "logos:figma"
+    },
+    {
+      "name": "Selenium",
+      "icon": "logos:selenium"
+    },
+    {
+      "name": "Jest",
+      "icon": "logos:jest"
+    },
+    {
+      "name": "Jupyter Notebook",
+      "icon": "logos:jupyter"
+    },
+    {
+      "name": "GitHub",
+      "icon": "logos:github"
+    },
+    {
+      "name": "Azure",
+      "icon": "logos:azure"
+    },
+    {
+      "name": "VS Code",
+      "icon": "logos:visual-studio-code"
+    },
+    {
+      "name": "DynamoDB",
+      "icon": "logos:aws-dynamodb"
+    },
+    {
+      "name": "SQL (Postgres)",
+      "icon": "logos:postgresql"
     }
-]
+  ]
+  

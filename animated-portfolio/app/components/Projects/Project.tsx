@@ -1,5 +1,6 @@
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
+import { Icon } from '@iconify/react';
 
 type Props = {
   thumbnail: string;
@@ -7,12 +8,12 @@ type Props = {
   link: {
     url: string;
     label: string;
-  }
+  };
   description: string;
   languageIcons: string[];
-}
+};
 
-const Project = ({thumbnail, title, link, description, languageIcons}: Props) => {
+const Project = ({ thumbnail, title, link, description, languageIcons }: Props) => {
   return (
     <div className="card flex flex-col items-stretch w-full max-w-[428.4px] p-5 md:p-[18px] gap-[30px]">
       <Image src={thumbnail} alt={`Thumbnail for ${title}`} width={392} height={230} className="w-full h-[230px] object-cover"></Image>
@@ -28,11 +29,11 @@ const Project = ({thumbnail, title, link, description, languageIcons}: Props) =>
       <p className="text-sm md:text-base">{description}</p>
       <div className="flex flex-row gap-[11px] ">
         {languageIcons.map((icon, iconId) => (
-          <img src={icon} alt="Language icon" key={iconId}></img>
+          <Icon icon={icon} key={iconId} width={24} height={24} />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;
