@@ -4,6 +4,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import cn from "classnames";
 import NavItem from "./NavItem";
 import { navItems } from "./navItems";
+import Reveal from "../Reveal";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,29 +35,31 @@ const Navbar = () => {
           alt="menu icon"
         />
       </button>
-      <nav
-        className={cn(
-          "bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out",
-          {
-            "opacity-90": isOpen,
-            "opacity-0 md:opacity-90": !isOpen,
-          }
-        )}
-      >
-        <ul className="flex flex-col items-center gap-4 text-lg font-normal md:flex-row">
-          {navItems.map((item) => (
-            <NavItem
-              key={item.sectionID}
-              sectionID={item.sectionID}
-              label={item.label}
-              activeSection={activeSection}
-              setActiveSection={setActiveSection}
-              scrollToSection={scrollToSection}
-              closeMenu={() => setIsOpen(false)}
-            />
-          ))}
-        </ul>
-      </nav>
+      <Reveal initialY={-20} duration={0.5}>
+        <nav
+          className={cn(
+            "bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out",
+            {
+              "opacity-90": isOpen,
+              "opacity-0 md:opacity-90": !isOpen,
+            }
+          )}
+        >
+          <ul className="flex flex-col items-center gap-4 text-lg font-normal md:flex-row">
+            {navItems.map((item) => (
+              <NavItem
+                key={item.sectionID}
+                sectionID={item.sectionID}
+                label={item.label}
+                activeSection={activeSection}
+                setActiveSection={setActiveSection}
+                scrollToSection={scrollToSection}
+                closeMenu={() => setIsOpen(false)}
+              />
+            ))}
+          </ul>
+        </nav>
+      </Reveal>
     </div>
   );
 };

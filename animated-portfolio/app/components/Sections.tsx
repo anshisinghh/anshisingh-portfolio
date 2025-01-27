@@ -1,9 +1,9 @@
 import React from 'react'
-import About from './About/About'
+import About from './About'
 import Experiences from './Experiences/Experiences'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
-import Contact from './Contact/Contact'
+import Contact from './Contact'
 
 const Sections = () => {
   return (

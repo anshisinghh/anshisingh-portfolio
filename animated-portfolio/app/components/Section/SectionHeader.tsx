@@ -1,4 +1,5 @@
 import React from 'react'
+import Reveal from '../Reveal'
 
 type Props = {
     highlightText: string;
@@ -6,9 +7,11 @@ type Props = {
 
 const SectionHeader = ({highlightText}: Props) => {
   return (
-    <h2 className="text-[22px] md:text-[35px] text-center whitespace-nowrap highlight font-semibold">
-        {highlightText}
-    </h2>
+    <Reveal initialX={-40}>
+      <h2 className="text-[22px] md:text-[35px] text-center whitespace-nowrap highlight font-semibold">
+          {highlightText}
+      </h2>
+    </Reveal>
   );
 };
 
