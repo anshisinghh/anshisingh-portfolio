@@ -26,9 +26,17 @@ body {
 @layer componenets {
   .card-shadow {
     @apply shadow-[0_3px_10px_rgb(0,0,0,0.2)];
-  };
-}
+  }
 
-.highlight {
-  @apply bg-primary text-white px-5 rounded-[4px];
+  .highlight {
+    @apply bg-primary text-white px-5 rounded-[4px];
+  }
+
+  .section-contents {
+    @apply w-full flex flex-col items-center gap-10 md:gap-[50px];
+  }
+
+  .card {
+    @apply bg-card rounded-lg card-shadow;
+  }
 }

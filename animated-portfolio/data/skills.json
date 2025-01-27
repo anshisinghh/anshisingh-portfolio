@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Java",
+        "icon": "/java_icon.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "/js_icon.png"
+    },
+    {
+        "name": "HTML",
+        "icon": "/html_icon.png"
+    },
+    {
+        "name": "CSS",
+        "icon": "/css_icon.png"
+    },
+    {
+        "name": "React",
+        "icon": "/react_icon.png"
+    }
+]

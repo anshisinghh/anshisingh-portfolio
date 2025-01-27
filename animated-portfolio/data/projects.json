@@ -1,0 +1,42 @@
+[
+    {
+        "thumbnail": "/weather_thumbnail.png",
+        "title": "Weather Dashboard",
+        "link": {
+            "label": "Weather.dash",
+            "url": "https://www.example.com"
+        },
+        "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
+        "languageIcons": ["/css_icon.png", "/js_icon.png", "/html_icon.png"]
+    },
+    {
+        "thumbnail": "/weather_thumbnail.png",
+        "title": "Weather Dashboard",
+        "link": {
+            "label": "Weather.dash",
+            "url": "https://www.example.com"
+        },
+        "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
+        "languageIcons": ["/css_icon.png", "/js_icon.png", "/html_icon.png"]
+    },
+    {
+        "thumbnail": "/weather_thumbnail.png",
+        "title": "Weather Dashboard",
+        "link": {
+            "label": "Weather.dash",
+            "url": "https://www.example.com"
+        },
+        "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
+        "languageIcons": ["/css_icon.png", "/js_icon.png", "/html_icon.png"]
+    },
+    {
+        "thumbnail": "/weather_thumbnail.png",
+        "title": "Weather Dashboard",
+        "link": {
+            "label": "Weather.dash",
+            "url": "https://www.example.com"
+        },
+        "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
+        "languageIcons": ["/css_icon.png", "/js_icon.png", "/html_icon.png"]
+    }
+]
