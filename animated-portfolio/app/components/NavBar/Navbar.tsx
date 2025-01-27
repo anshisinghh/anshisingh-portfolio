@@ -38,8 +38,8 @@ const Navbar = () => {
         className={cn(
           "bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out",
           {
-            "opacity-100": isOpen,
-            "opacity-0 md:opacity-100": !isOpen,
+            "opacity-90": isOpen,
+            "opacity-0 md:opacity-90": !isOpen,
           }
         )}
       >

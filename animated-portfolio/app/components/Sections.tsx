@@ -3,6 +3,7 @@ import About from './About/About'
 import Experiences from './Experiences/Experiences'
 import Projects from './Projects/Projects'
 import Skills from './Skills/Skills'
+import Contact from './Contact/Contact'
 
 const Sections = () => {
   return (
@@ -11,6 +12,7 @@ const Sections = () => {
         <Experiences />
         <Projects />
         <Skills />
+        <Contact />
     </main>
   )
 }

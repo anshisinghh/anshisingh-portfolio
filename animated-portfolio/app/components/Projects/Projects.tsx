@@ -25,8 +25,6 @@ const Projects = () => {
           }
         </div>
       </div>
-      <Image src="/projects_highlight.svg" alt="Background highlight decoration" width={558} height={558} className="absolute hidden md:block left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"></Image>
-      <Image src="/projects_highlight__mobile.svg" alt="Mobile background highlight decoration" width={321} height={530} className="absolute md:hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -z-10"></Image>
     </SectionContainer>
   )
 }
