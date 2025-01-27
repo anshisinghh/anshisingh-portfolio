@@ -9,7 +9,7 @@ const Skills = () => {
     <SectionContainer id="skills">
       <div className="section-contents mb-[66px] md:mb-[43px] mx-[22px] md:mx-[116px]">
         <SectionHeader highlightText="Skills"></SectionHeader>
-        <div className="card w-full px-[33px] py-[27px] flex flex-wrap justify-center items-center gap-[19px] md:gap-[33px]">
+        <div className="card w-full px-[33px] py-[27px] flex flex-wrap justify-center items-center gap-[20px]">
           {skills.map((skill, id) => (
             <Skill key={id} name={skill.name} icon={skill.icon} />
           ))}

@@ -2,15 +2,15 @@
   {
     "image": "/company_1.png",
     "company": "CoStar Group - Homes.com",
-    "role": "Software Engineer Intern",
-    "description": "Developed a new feature for the Homes.com website using React and Redux. The feature allows users to save their favorite homes and receive notifications when there are changes to the listing. The feature was developed using React, Redux, and Node.js.",
+    "role": "Software Engineering Intern",
+    "description": "Refactored an internal developer tool for Homes.com, integrating it into the main platform to automate data decryption, streamline user management, and optimize a favorites database, reducing developer hours by 50%. Developed automated tests using Selenium to improve search results, enhancing testing efficiency and reducing release cycles. Contributed to SEO optimization to improve Lighthouse performance scores.",
     "dates": "June 2024 - August 2024"
   },
   {
-    "image": "/company_1.png",
-    "company": "CoStar Group - Homes.com",
-    "role": "Software Engineer Intern",
-    "description": "Developed a new feature for the Homes.com website using React and Redux. The feature allows users to save their favorite homes and receive notifications when there are changes to the listing. The feature was developed using React, Redux, and Node.js.",
-    "dates": "June 2024 - August 2024"
+    "image": "/company_2.png",
+    "company": "Women in Computing @ UC San Diego",
+    "role": "Projects Chair",
+    "description": "Organized and led project teams for 60+ members each quarter, focusing on web development. Developed a 10-week activity plan and conducted weekly technical workshops on HTML, CSS, JavaScript, and APIs. Delivered workshops on interview prep, resume writing, and Figma to enhance members' skills and career readiness.",
+    "dates": "January 2024 - Present"
   }
 ]

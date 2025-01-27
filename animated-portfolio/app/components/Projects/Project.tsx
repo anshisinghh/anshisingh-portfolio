@@ -69,27 +69,28 @@ const Project = ({
           width={392}
           height={230}
           className="w-full h-[230px] object-cover"
-        ></Image>
+        />
         <div className="flex flex-col gap-[11px]">
           <div className="flex justify-between items-center">
-            <h3 className="font-semibold text-xl md:text-[22px]">{title}</h3>
             <a
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]"
+              className="flex items-center gap-2"
             >
-              <span className="hidden md:block">{link.label}</span>
+              <h3 className="text-xl md:text-[22px] font-semibold hover:underline">
+                {title}
+              </h3>
               <img
                 src="link_arrow_dark.svg"
                 alt="Link arrow"
-                className="block"
-              ></img>
+                className="inline-block w-4 h-4"
+              />
             </a>
           </div>
         </div>
         <p className="text-sm md:text-base">{description}</p>
-        <div className="flex flex-row gap-[11px] ">
+        <div className="flex flex-row gap-[11px]">
           {languageIcons.map((icon, iconId) => (
             <Icon icon={icon} key={iconId} width={24} height={24} />
           ))}

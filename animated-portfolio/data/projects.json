@@ -1,42 +1,57 @@
 [
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather Dashboard",
+    "thumbnail": "/checkers_ai_thumbnail.png",
+    "title": "Checkers AI Solver",
     "link": {
-      "label": "Weather.dash",
       "url": "https://www.example.com"
     },
-    "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
-    "languageIcons": ["logos:css", "logos:javascript", "logos:html-5"]
+    "description": "Designed and implemented a Checkers AI employing Minimax algorithm for strategic decision-making, with Alpha-Beta Pruning for optimization. Built a web interface using Flask for real-time interaction with the AI.",
+    "languageIcons": [
+      "logos:python",
+      "logos:flask",
+      "logos:html-5",
+      "logos:css"
+    ]
   },
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather Dashboard",
+    "thumbnail": "/developer_journal_thumbnail.png",
+    "title": "Developer Journal Website",
     "link": {
-      "label": "Weather.dash",
       "url": "https://www.example.com"
     },
-    "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
-    "languageIcons": ["logos:css", "logos:javascript", "logos:html-5"]
+    "description": "Led a team to develop a note-taking and task management website. Features include markdown formatting, dark/light mode, local storage, and a CI/CD pipeline using Jest and ESLint.",
+    "languageIcons": [
+      "logos:html-5",
+      "logos:css",
+      "logos:javascript",
+      "logos:jest"
+    ]
   },
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather Dashboard",
+    "thumbnail": "/food_classifier_thumbnail.png",
+    "title": "Food Image Classifier",
     "link": {
-      "label": "Weather.dash",
       "url": "https://www.example.com"
     },
-    "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
-    "languageIcons": ["logos:css", "logos:javascript", "logos:html-5"]
+    "description": "Built a convolutional neural network (CNN) to classify 101,000 food images with 75% accuracy. Leveraged TensorFlow and Keras for model design, training, and deployment.",
+    "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras"]
   },
   {
-    "thumbnail": "/weather_thumbnail.png",
-    "title": "Weather Dashboard",
+    "thumbnail": "/ride_fare_thumbnail.png",
+    "title": "Ride Fare Predictor",
     "link": {
-      "label": "Weather.dash",
       "url": "https://www.example.com"
     },
-    "description": "A weather dashboard that allows users to search for a city and view the current weather conditions as well as a 5-day forecast.",
-    "languageIcons": ["logos:css", "logos:javascript", "logos:html-5"]
+    "description": "add.",
+    "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras"]
+  },
+  {
+    "thumbnail": "/flix_app_thumbnail.png",
+    "title": "Flix App",
+    "link": {
+      "url": "https://www.example.com"
+    },
+    "description": "Developed a movie browsing platform using Swift and API integration with TMDB for real-time data fetching and display.",
+    "languageIcons": ["logos:swift", "logos:figma"]
   }
 ]
