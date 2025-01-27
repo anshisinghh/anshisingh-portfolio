@@ -1,24 +1,8 @@
 [
   {
-    "thumbnail": "/checkers_ai_thumbnail.png",
-    "title": "Checkers AI Solver",
-    "link": {
-      "url": "https://www.example.com"
-    },
-    "description": "Designed and implemented a Checkers AI employing Minimax algorithm for strategic decision-making, with Alpha-Beta Pruning for optimization. Built a web interface using Flask for real-time interaction with the AI.",
-    "languageIcons": [
-      "logos:python",
-      "logos:flask",
-      "logos:html-5",
-      "logos:css"
-    ]
-  },
-  {
     "thumbnail": "/developer_journal_thumbnail.png",
     "title": "Developer Journal Website",
-    "link": {
-      "url": "https://www.example.com"
-    },
+    "url": "https://www.example.com",
     "description": "Led a team to develop a note-taking and task management website. Features include markdown formatting, dark/light mode, local storage, and a CI/CD pipeline using Jest and ESLint.",
     "languageIcons": [
       "logos:html-5",
@@ -28,29 +12,35 @@
     ]
   },
   {
+    "thumbnail": "/checkers_ai_thumbnail.png",
+    "title": "Checkers AI Solver",
+    "url": "https://www.example.com",
+    "description": "Designed and implemented a Checkers AI employing Minimax algorithm for strategic decision-making, with Alpha-Beta Pruning for optimization. Built a web interface using Flask for real-time interaction with the AI.",
+    "languageIcons": [
+      "logos:python",
+      "logos:flask",
+      "logos:html-5",
+      "logos:css"
+    ]
+  },
+  {
     "thumbnail": "/food_classifier_thumbnail.png",
     "title": "Food Image Classifier",
-    "link": {
-      "url": "https://www.example.com"
-    },
+    "url": "https://www.example.com",
     "description": "Built a convolutional neural network (CNN) to classify 101,000 food images with 75% accuracy. Leveraged TensorFlow and Keras for model design, training, and deployment.",
     "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras"]
   },
   {
     "thumbnail": "/ride_fare_thumbnail.png",
     "title": "Ride Fare Predictor",
-    "link": {
-      "url": "https://www.example.com"
-    },
+    "url": "https://www.example.com",
     "description": "add.",
     "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras"]
   },
   {
     "thumbnail": "/flix_app_thumbnail.png",
     "title": "Flix App",
-    "link": {
-      "url": "https://www.example.com"
-    },
+    "url": "https://www.example.com",
     "description": "Developed a movie browsing platform using Swift and API integration with TMDB for real-time data fetching and display.",
     "languageIcons": ["logos:swift", "logos:figma"]
   }

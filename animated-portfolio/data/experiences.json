@@ -1,16 +1,23 @@
 [
   {
-    "image": "/company_1.png",
-    "company": "CoStar Group - Homes.com",
-    "role": "Software Engineering Intern",
-    "description": "Refactored an internal developer tool for Homes.com, integrating it into the main platform to automate data decryption, streamline user management, and optimize a favorites database, reducing developer hours by 50%. Developed automated tests using Selenium to improve search results, enhancing testing efficiency and reducing release cycles. Contributed to SEO optimization to improve Lighthouse performance scores.",
-    "dates": "June 2024 - August 2024"
+    "image": "/oracle_logo.webp",
+    "company": "Oracle - Oracle Cloud Infrastructure",
+    "role": "Software Engineer",
+    "description": "Incoming Software Engineer.",
+    "dates": "July 2025"
   },
   {
-    "image": "/company_2.png",
+    "image": "/wic_logo.png",
     "company": "Women in Computing @ UC San Diego",
     "role": "Projects Chair",
-    "description": "Organized and led project teams for 60+ members each quarter, focusing on web development. Developed a 10-week activity plan and conducted weekly technical workshops on HTML, CSS, JavaScript, and APIs. Delivered workshops on interview prep, resume writing, and Figma to enhance members' skills and career readiness.",
+    "description": "Organized and led project teams for 60+ members each quarter, focusing on web development. Developed a 10-week activity plan and conducted weekly technical workshops on HTML, CSS, JavaScript, APIs, and Figma.",
     "dates": "January 2024 - Present"
+  },
+  {
+    "image": "/costar_logo.jpeg",
+    "company": "CoStar Group - Homes.com",
+    "role": "Software Engineering Intern",
+    "description": "Refactored an internal developer tool for Homes.com, and integrated it into the main platform allowing automatic data decryption, quick links for user management, and a favorites database—streamlining the workflow and resulting in a 50% reduction in developer hours for specific tasks.",
+    "dates": "June 2024 - August 2024"
   }
 ]

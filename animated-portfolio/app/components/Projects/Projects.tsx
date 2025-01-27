@@ -15,7 +15,7 @@ const Projects = () => {
               key={id}
               thumbnail={project.thumbnail}
               title={project.title}
-              link={project.link}
+              url={project.url}
               description={project.description}
               languageIcons={project.languageIcons}
             />

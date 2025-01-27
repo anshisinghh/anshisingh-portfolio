@@ -30,7 +30,7 @@ const SocialLinks = ({ className = "" }) => {
         <FaLinkedin />
       </a>
       <a
-        href="/Anshi_Singh_Resume.pdf"
+        href="/anshi_singh_resume.pdf"
         title="Resume"
         target="_blank"
         rel="noopener noreferrer"

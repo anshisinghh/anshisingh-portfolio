@@ -9,10 +9,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 type Props = {
   thumbnail: string;
   title: string;
-  link: {
-    url: string;
-    label: string;
-  };
+  url: string;
   description: string;
   languageIcons: string[];
 };
@@ -20,7 +17,7 @@ type Props = {
 const Project = ({
   thumbnail,
   title,
-  link,
+  url,
   description,
   languageIcons,
 }: Props) => {
@@ -73,7 +70,7 @@ const Project = ({
         <div className="flex flex-col gap-[11px]">
           <div className="flex justify-between items-center">
             <a
-              href={link.url}
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"
