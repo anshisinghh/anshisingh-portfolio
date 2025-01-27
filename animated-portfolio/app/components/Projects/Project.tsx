@@ -14,7 +14,7 @@ type Props = {
 
 const Project = ({thumbnail, title, link, description, languageIcons}: Props) => {
   return (
-    <div className="card flex flex-col items-stretch w-full max-w=[428.4px] p-5 md:p-[18px] gap-[30px]">
+    <div className="card flex flex-col items-stretch w-full max-w-[428.4px] p-5 md:p-[18px] gap-[30px]">
       <Image src={thumbnail} alt={`Thumbnail for ${title}`} width={392} height={230} className="w-full h-[230px] object-cover"></Image>
       <div className="flex flex-col gap-[11px]">
         <div className="flex justify-between items-center">
