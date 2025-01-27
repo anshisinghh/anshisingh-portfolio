@@ -29,12 +29,7 @@ const Navbar = () => {
         onClick={() => setIsOpen((prevVal) => !prevVal)}
       >
         <img
-          className="block dark:hidden"
-          src="/menu_icon_light.svg"
-          alt="menu icon"
-        />
-        <img
-          className="hidden dark:block"
+          className="block"
           src="/menu_icon_dark.svg"
           alt="menu icon"
         />

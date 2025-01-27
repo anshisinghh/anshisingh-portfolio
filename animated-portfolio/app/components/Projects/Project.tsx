@@ -21,8 +21,7 @@ const Project = ({thumbnail, title, link, description, languageIcons}: Props) =>
           <h3 className="font-semibold text-xl md:text-[22px]">{title}</h3>
           <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex px-[5px] py-[3px] gap-1 bg-[#b9b9b9] bg-opacity-[24%] rounded text-[14px]">
             <span className="hidden md:block">{link.label}</span>
-            <img src="link_arrow.svg" alt="Link arrow" className="block dark:hidden"></img>
-            <img src="link_arrow_dark.svg" alt="Link arrow" className="hidden dark:block"></img>
+            <img src="link_arrow_dark.svg" alt="Link arrow" className="block"></img>
           </a>
         </div>
       </div>

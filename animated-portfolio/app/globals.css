@@ -3,19 +3,11 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #333333;
-  --primary: #522ffe;
-  --card: #ffffff;
-}
-
-.dark {
   --background: #030304;
   --foreground: #ffffff;
   --primary: #522ffe;
   --card: #1d1d1d;
 }
-
 
 body {
   color: var(--foreground);

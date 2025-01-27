@@ -9,7 +9,7 @@ const Experiences = () => {
   return (
     <SectionContainer id="experience">
         <div className="section-contents md:mx-[64px]">
-            <SectionHeader plainText="My current and prior" highlightText='Work Experience'></SectionHeader>
+            <SectionHeader highlightText='Work Experience'></SectionHeader>
             <div className="w-full px-6 md:px-[52px] flex flex-col gap-5">
                 {experiences.map((experience, id) => (
                     <Experience 
