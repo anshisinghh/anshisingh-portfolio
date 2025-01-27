@@ -28,3 +28,7 @@ body {
     @apply shadow-[0_3px_10px_rgb(0,0,0,0.2)];
   };
 }
+
+.highlight {
+  @apply bg-primary text-white px-5 rounded-[4px];
+}

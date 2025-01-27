@@ -12,7 +12,7 @@ type NavItemProps = {
 
 const NavItem: React.FC<NavItemProps> = ({ sectionID, label, activeSection, setActiveSection, scrollToSection, closeMenu }) => {
   return (
-    <li>
+    <li className="cursor-pointer">
       <div
         className={cn(
           "rounded p-1 duration-300 ease-in-out",
