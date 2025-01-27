@@ -10,7 +10,14 @@ type NavItemProps = {
   closeMenu: () => void;
 };
 
-const NavItem: React.FC<NavItemProps> = ({ sectionID, label, activeSection, setActiveSection, scrollToSection, closeMenu }) => {
+const NavItem: React.FC<NavItemProps> = ({
+  sectionID,
+  label,
+  activeSection,
+  setActiveSection,
+  scrollToSection,
+  closeMenu,
+}) => {
   return (
     <li className="cursor-pointer">
       <div

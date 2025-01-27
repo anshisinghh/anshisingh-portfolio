@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-import SocialLinks from './SocialLinks';
-import Reveal from './Reveal';
+import React from "react";
+import Image from "next/image";
+import SocialLinks from "./SocialLinks";
+import Reveal from "./Reveal";
 
 const About = () => {
   return (
@@ -10,10 +10,13 @@ const About = () => {
         <div className="flex flex-col gap-[13px] items-center md:gap-[34px] md:my-[58px] md:mr-[35px] md:items-start">
           <h1 className="text-2xl/1 text-center font-semibold block md:text-[40px] md:text-start md:inline">
             Hi! I'm Anshi Singh{" "}
-            <span className="block text-[27px] highlight mt-2 md:text-[45px] md:inline md:mt-0">Software Engineer</span>
+            <span className="block text-[27px] highlight mt-2 md:text-[45px] md:inline md:mt-0">
+              Software Engineer
+            </span>
           </h1>
           <p className="text-center mx-6 md:text-[20px] md:text-start md:mx-0">
-            I am a 4th year at UC San Diego, I will be graduating with a degree in Computer Science.
+            I am a 4th year at UC San Diego, I will be graduating with a degree
+            in Computer Science.
           </p>
           <SocialLinks />
         </div>

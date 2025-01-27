@@ -29,11 +29,7 @@ const Navbar = () => {
         className="bg-background card-shadow p-3 md:hidden rounded"
         onClick={() => setIsOpen((prevVal) => !prevVal)}
       >
-        <img
-          className="block"
-          src="/menu_icon_dark.svg"
-          alt="menu icon"
-        />
+        <img className="block" src="/menu_icon_dark.svg" alt="menu icon" />
       </button>
       <Reveal initialY={-20} duration={0.5}>
         <nav

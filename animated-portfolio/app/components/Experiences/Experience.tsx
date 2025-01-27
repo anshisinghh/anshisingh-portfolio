@@ -11,7 +11,14 @@ type Props = {
   dates: string;
 };
 
-const Experience = ({ id, image, company, role, description, dates }: Props) => {
+const Experience = ({
+  id,
+  image,
+  company,
+  role,
+  description,
+  dates,
+}: Props) => {
   return (
     <Reveal initialX={id % 2 === 0 ? -60 : 60} delay={id * 0.5}>
       <div className="relative flex items-start">

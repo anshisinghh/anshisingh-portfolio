@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import skills from "@/data/skills.json";
-import SectionContainer from '../Section/SectionContainer';
-import SectionHeader from '../Section/SectionHeader';
-import Skill from './Skill';
+import SectionContainer from "../Section/SectionContainer";
+import SectionHeader from "../Section/SectionHeader";
+import Skill from "./Skill";
 
 const Skills = () => {
   return (

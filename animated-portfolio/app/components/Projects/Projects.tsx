@@ -1,8 +1,8 @@
-import React from 'react';
-import SectionContainer from '../Section/SectionContainer';
-import SectionHeader from '../Section/SectionHeader';
+import React from "react";
+import SectionContainer from "../Section/SectionContainer";
+import SectionHeader from "../Section/SectionHeader";
 import projects from "@/data/projects.json";
-import Project from './Project';
+import Project from "./Project";
 
 const Projects = () => {
   return (

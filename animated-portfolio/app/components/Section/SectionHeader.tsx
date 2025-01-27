@@ -1,15 +1,15 @@
-import React from 'react'
-import Reveal from '../Reveal'
+import React from "react";
+import Reveal from "../Reveal";
 
 type Props = {
-    highlightText: string;
-}
+  highlightText: string;
+};
 
-const SectionHeader = ({highlightText}: Props) => {
+const SectionHeader = ({ highlightText }: Props) => {
   return (
     <Reveal initialX={-40}>
       <h2 className="text-[22px] md:text-[35px] text-center whitespace-nowrap highlight font-semibold">
-          {highlightText}
+        {highlightText}
       </h2>
     </Reveal>
   );

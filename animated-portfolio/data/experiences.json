@@ -1,16 +1,16 @@
 [
-    {
-        "image": "/company_1.png",
-        "company": "CoStar Group - Homes.com",
-        "role": "Software Engineer Intern",
-        "description": "Developed a new feature for the Homes.com website using React and Redux. The feature allows users to save their favorite homes and receive notifications when there are changes to the listing. The feature was developed using React, Redux, and Node.js.",
-        "dates": "June 2024 - August 2024"
-    },
-    {
-        "image": "/company_1.png",
-        "company": "CoStar Group - Homes.com",
-        "role": "Software Engineer Intern",
-        "description": "Developed a new feature for the Homes.com website using React and Redux. The feature allows users to save their favorite homes and receive notifications when there are changes to the listing. The feature was developed using React, Redux, and Node.js.",
-        "dates": "June 2024 - August 2024"
-    }
+  {
+    "image": "/company_1.png",
+    "company": "CoStar Group - Homes.com",
+    "role": "Software Engineer Intern",
+    "description": "Developed a new feature for the Homes.com website using React and Redux. The feature allows users to save their favorite homes and receive notifications when there are changes to the listing. The feature was developed using React, Redux, and Node.js.",
+    "dates": "June 2024 - August 2024"
+  },
+  {
+    "image": "/company_1.png",
+    "company": "CoStar Group - Homes.com",
+    "role": "Software Engineer Intern",
+    "description": "Developed a new feature for the Homes.com website using React and Redux. The feature allows users to save their favorite homes and receive notifications when there are changes to the listing. The feature was developed using React, Redux, and Node.js.",
+    "dates": "June 2024 - August 2024"
+  }
 ]
