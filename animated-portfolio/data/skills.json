@@ -18,5 +18,9 @@
     {
         "name": "React",
         "icon": "/react_icon.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "/ts_icon.png"
     }
 ]
