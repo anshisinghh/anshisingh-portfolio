@@ -6,7 +6,7 @@
     "description": "Led a team to develop a note-taking and task management website. Features include markdown formatting, dark/light mode, local storage, and a CI/CD pipeline using Jest and ESLint.",
     "languageIcons": [
       "logos:html-5",
-      "logos:css",
+      "skill-icons:css",
       "logos:javascript",
       "logos:jest"
     ]
@@ -20,7 +20,7 @@
       "logos:python",
       "logos:flask",
       "logos:html-5",
-      "logos:css"
+      "skill-icons:css"
     ]
   },
   {
@@ -34,8 +34,8 @@
     "thumbnail": "/ride_fare_thumbnail.png",
     "title": "Ride Fare Predictor",
     "url": "https://www.example.com",
-    "description": "add.",
-    "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras"]
+    "description": "Developed a machine learning model to predict ride fares based on features like distance, time, and traffic conditions. Preprocessed datasets, performed feature engineering, and implemented a regression model using TensorFlow and Keras. Evaluated model performance and utilized Python libraries such as Pandas, NumPy, and Scikit-learn for data processing.",
+    "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras", "logos:pandas", "logos:numpy", "skill-icons:scikitlearn-dark"]
   },
   {
     "thumbnail": "/flix_app_thumbnail.png",
@@ -43,5 +43,14 @@
     "url": "https://www.example.com",
     "description": "Developed a movie browsing platform using Swift and API integration with TMDB for real-time data fetching and display.",
     "languageIcons": ["logos:swift", "logos:figma"]
+  },
+  {
+    "thumbnail": "/would_you_rather_thumbnail.png",
+    "title": "Would You Rather App",
+    "url": "https://www.example.com",
+    "description": "Social Media App.",
+    "languageIcons": [
+      "logos:swift", "logos:figma", "logos:git"
+    ]
   }
 ]

@@ -6,6 +6,7 @@ type Props = {
   id: number;
   image: string;
   company: string;
+  location: string;
   role: string;
   description: string;
   dates: string;
@@ -15,6 +16,7 @@ const Experience = ({
   id,
   image,
   company,
+  location,
   role,
   description,
   dates,
@@ -23,26 +25,28 @@ const Experience = ({
     <Reveal initialX={id % 2 === 0 ? -60 : 60} delay={id * 0.5}>
       <div className="relative flex items-start">
         <div className="flex flex-col items-center">
-          <div className="w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center z-10">
+          <div className="w-20 h-20 rounded-full shadow-lg flex items-center justify-center z-10">
             <Image
               src={image}
               alt={`Company image for ${company}`}
-              width={30}
-              height={30}
+              width={60}
+              height={60}
               className="rounded-full"
             />
           </div>
-          <div className="flex-1 w-[2px] bg-gray-300 min-h-[50px]"></div>
         </div>
-        <div className="card flex flex-col items-stretch w-full max-w-screen-lg px-6 py-[27px] md:px-[33px] gap-3 ml-6">
-          <div className="flex flex-col items-start md:flex-row gap-1 md:gap-0 md:justify-between">
-            <div className="flex flex-col sm:flex-row gap-3 items-start sm:items-center">
-              <h3 className="text-xl font-medium">{company}</h3>
+        <div className="card flex flex-col items-stretch w-full max-w-screen-lg px-6 py-[27px] md:px-[33px] gap-4 ml-6">
+          <div className="gap-2">
+            <div className="flex justify-between items-center">
+              <h3 className="text-xl font-bold">{role}</h3>
+              <p className="text-sm md:text-base text-gray-500">{dates}</p>
             </div>
-            <div className="text-base md:text-xl font-medium">{role}</div>
+            <div className="flex justify-between items-center">
+              <p className="text-sm md:text-base text-gray-500 font-semibold">{company}</p>
+              <p className="text-sm md:text-base text-gray-500">{location}</p>
+            </div>
           </div>
           <p className="text-sm md:text-base">{description}</p>
-          <p className="text-sm.l md:text-base">{dates}</p>
         </div>
       </div>
     </Reveal>

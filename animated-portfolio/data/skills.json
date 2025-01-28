@@ -5,7 +5,7 @@
   },
   {
     "name": "C",
-    "icon": "logos:c-lang"
+    "icon": "vscode-icons:file-type-c3"
   },
   {
     "name": "C#",
@@ -41,7 +41,7 @@
   },
   {
     "name": "CSS",
-    "icon": "logos:css"
+    "icon": "skill-icons:css"
   },
   {
     "name": "AWS",
@@ -102,5 +102,17 @@
   {
     "name": "Flask",
     "icon": "logos:flask"
+  },
+  {
+    "name": "Scikit-learn",
+    "icon": "skill-icons:scikitlearn-dark"
+  },
+  {
+    "name": "NumPy",
+    "icon": "logos:numpy"
+  },
+  {
+    "name": "Pandas",
+    "icon": "logos:pandas"
   }
 ]
