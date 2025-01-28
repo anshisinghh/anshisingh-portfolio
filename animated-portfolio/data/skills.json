@@ -24,14 +24,6 @@
     "icon": "logos:typescript"
   },
   {
-    "name": "Vue.js",
-    "icon": "logos:vue"
-  },
-  {
-    "name": "React",
-    "icon": "logos:react"
-  },
-  {
     "name": "Swift",
     "icon": "logos:swift"
   },
@@ -44,52 +36,12 @@
     "icon": "skill-icons:css"
   },
   {
-    "name": "AWS",
-    "icon": "logos:aws"
+    "name": "Vue.js",
+    "icon": "logos:vue"
   },
   {
-    "name": "Git",
-    "icon": "logos:git"
-  },
-  {
-    "name": "Docker",
-    "icon": "logos:docker"
-  },
-  {
-    "name": "Figma",
-    "icon": "logos:figma"
-  },
-  {
-    "name": "Selenium",
-    "icon": "logos:selenium"
-  },
-  {
-    "name": "Jest",
-    "icon": "logos:jest"
-  },
-  {
-    "name": "Jupyter Notebook",
-    "icon": "logos:jupyter"
-  },
-  {
-    "name": "GitHub",
-    "icon": "logos:github"
-  },
-  {
-    "name": "Azure",
-    "icon": "logos:azure"
-  },
-  {
-    "name": "VS Code",
-    "icon": "logos:visual-studio-code"
-  },
-  {
-    "name": "DynamoDB",
-    "icon": "logos:aws-dynamodb"
-  },
-  {
-    "name": "PostgreSQL",
-    "icon": "logos:postgresql"
+    "name": "React",
+    "icon": "logos:react"
   },
   {
     "name": "TensorFlow",
@@ -116,7 +68,55 @@
     "icon": "logos:pandas"
   },
   {
+    "name": "AWS",
+    "icon": "logos:aws"
+  },
+  {
+    "name": "Docker",
+    "icon": "logos:docker"
+  },
+  {
+    "name": "Figma",
+    "icon": "logos:figma"
+  },
+  {
+    "name": "Jupyter Notebook",
+    "icon": "logos:jupyter"
+  },
+  {
+    "name": "Git",
+    "icon": "logos:git"
+  },
+  {
+    "name": "GitHub",
+    "icon": "logos:github"
+  },
+  {
+    "name": "Azure",
+    "icon": "logos:azure"
+  },
+  {
+    "name": "VS Code",
+    "icon": "logos:visual-studio-code"
+  },
+  {
+    "name": "DynamoDB",
+    "icon": "logos:aws-dynamodb"
+  },
+  {
+    "name": "PostgreSQL",
+    "icon": "logos:postgresql"
+  },
+  {
     "name": ".NET",
     "icon": "logos:dot-net"
+  },
+  {
+    "name": "Jest",
+    "icon": "logos:jest"
+  },
+  {
+    "name": "Selenium",
+    "icon": "logos:selenium"
   }
 ]
