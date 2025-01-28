@@ -5,7 +5,13 @@
     "role": "Software Engineer",
     "description": "Incoming Software Engineer.",
     "location": "Seattle, Washington",
-    "dates": "July 2025"
+    "dates": "July 2025",
+    "icon": [
+      {
+        "name": "Oracle",
+        "skills": ["ci:oracle"]
+      }
+    ]
   },
   {
     "image": "/wic_logo.png",
@@ -13,7 +19,13 @@
     "role": "Projects Chair",
     "description": "Organized and led project teams for 60+ members each quarter, focusing on web development. Developed a 10-week activity plan and conducted weekly technical workshops on HTML, CSS, JavaScript, APIs, and Figma.",
     "location": "Irvine, California",
-    "dates": "January 2024 - Present"
+    "dates": "January 2024 - Present",
+    "icon": [
+      {
+        "name": "Leadership",
+        "skills": []
+      }
+    ]
   },
   {
     "image": "/costar_logo.jpeg",
@@ -21,6 +33,16 @@
     "role": "Software Engineering Intern",
     "description": "Refactored an internal developer tool for Homes.com, and integrated it into the main platform allowing automatic data decryption, quick links for user management, and a favorites database—streamlining the workflow and resulting in a 50% reduction in developer hours for specific tasks.",
     "location": "San Diego, California",
-    "dates": "June 2024 - August 2024"
+    "dates": "June 2024 - August 2024",
+    "icon": [
+      {
+        "name": "Selenium",
+        "skills": ["logos:selenium"]
+      },
+      {
+        "name": "Vue.js",
+        "skills": ["logos:vue"]
+      }
+    ]
   }
 ]
