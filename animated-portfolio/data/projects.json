@@ -42,7 +42,7 @@
     "title": "Bridge Evaluation Backend",
     "url": "https://www.example.com",
     "description": "idk",
-    "languageIcons": ["logos:postgresql", "logos:typescript"]
+    "languageIcons": ["logos:postgresql", "logos:typescript", "logos:docker"]
   },
   {
     "thumbnail": "/flix_app_thumbnail.png",
