@@ -20,7 +20,7 @@ const Experiences = () => {
               location={experience.location}
               description={experience.description}
               dates={experience.dates}
-              icon={experience.icon}
+              languageIcons={experience.languageIcons}
             />
           ))}
         </div>
