@@ -81,16 +81,19 @@ const Experience = ({
             </div>
           </div>
           <p className="text-sm md:text-base">{description}</p>
-          <div className="relative flex gap-2 p-2 border-primary border rounded-lg h-[46px]">
-            {/* <motion.div
-              ref={ref}
-              className="absolute inset-0 border-2 border-purple-300 rounded-lg"
-              style={{ maskImage: mask, WebkitMaskImage: mask }}
-            ></motion.div> */}
+          <div className="relative flex gap-2">
             {icon.map((item, index) => (
-              <div key={index} className="flex items-center gap-2">
-                <Icon icon={item.skills[0]} width={24} height={24} />
-                <p className="text-lg">{item.name}</p>
+              <div
+                key={index}
+                className="flex items-center p-1 gap-2 border-primary border rounded-lg"
+              >
+                <Icon icon={item.skills[0]} width={20} height={20} />
+                <p className="text-sm">{item.name}</p>
+                <motion.div
+                  ref={ref}
+                  className="absolute inset-0 border-2 border-purple-300 rounded-lg"
+                  style={{ maskImage: mask, WebkitMaskImage: mask }}
+                ></motion.div>
               </div>
             ))}
           </div>
