@@ -8,10 +8,11 @@ type Props = {
   image: string;
   company: string;
   role: string;
+  url: string;
   description: string;
   location: string;
   dates: string;
-  languageIcons: string[]; 
+  languageIcons: string[];
 };
 
 const Experience = ({
@@ -20,9 +21,10 @@ const Experience = ({
   company,
   location,
   role,
+  url,
   description,
   dates,
-  languageIcons,
+  languageIcons = [],
 }: Props) => {
   return (
     <Reveal initialX={id % 2 === 0 ? -60 : 60} delay={id * 0.5}>
@@ -41,7 +43,18 @@ const Experience = ({
         <div className="card flex flex-col items-stretch w-full max-w-screen-lg px-6 py-[27px] md:px-[33px] gap-4 ml-6">
           <div className="gap-2">
             <div className="flex justify-between items-center">
-              <h3 className="text-xl font-bold">{role}</h3>
+              {url ? (
+                <a href={url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline">
+                  <h3 className="text-xl font-bold">{role}</h3>
+                  <img
+                    src="link_arrow_dark.svg"
+                    alt="Link arrow"
+                    className="inline-block w-4 h-4"
+                  />
+                </a>
+              ) : (
+                <h3 className="text-xl font-bold">{role}</h3>
+              )}
               <p className="text-sm md:text-base text-gray-500">{dates}</p>
             </div>
             <div className="flex justify-between items-center">
@@ -52,11 +65,13 @@ const Experience = ({
             </div>
           </div>
           <p className="text-sm md:text-base">{description}</p>
-          <div className="flex flex-row gap-[11px]">
-            {languageIcons.map((icon, iconId) => (
-              <Icon icon={icon} key={iconId} width={24} height={24} />
-            ))}
-          </div>
+          {languageIcons.length > 0 && (
+            <div className="flex flex-row gap-[11px]">
+              {languageIcons.map((icon, iconId) => (
+                <Icon icon={icon} key={iconId} width={24} height={24} />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </Reveal>

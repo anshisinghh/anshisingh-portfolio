@@ -15,24 +15,25 @@
     "description": "Organized and led project teams for 60+ members each quarter, focusing on web development. Developed a 10-week activity plan and conducted weekly technical workshops on HTML, CSS, JavaScript, APIs, and Figma.",
     "location": "La Jolla, California",
     "dates": "January 2024 - Present",
-    "languageIcons": ["el:adult"]
+    "languageIcons": []
   },
   {
     "image": "/costar_logo.jpeg",
     "company": "CoStar Group - Homes.com",
     "role": "Software Engineering Intern",
+    "url": "https://www.example.com/",
     "description": "Refactored an internal developer tool for Homes.com, and integrated it into the main platform allowing automatic data decryption, quick links for user management, and a favorites database—streamlining the workflow and resulting in a 50% reduction in developer hours for specific tasks.",
     "location": "Irvine, California",
     "dates": "June 2024 - August 2024",
     "languageIcons": [
       "logos:vue",
       "logos:c-sharp",
-      "logos:dot-net",
       "logos:typescript",
       "logos:aws-dynamodb",
       "logos:sass",
       "logos:selenium",
-      "logos:microsoft-azure"
+      "logos:microsoft-azure",
+      "logos:dot-net"
     ]
   }
 ]

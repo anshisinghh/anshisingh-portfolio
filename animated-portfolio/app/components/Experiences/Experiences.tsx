@@ -17,6 +17,7 @@ const Experiences = () => {
               image={experience.image}
               company={experience.company}
               role={experience.role}
+              url={experience.url}
               location={experience.location}
               description={experience.description}
               dates={experience.dates}
