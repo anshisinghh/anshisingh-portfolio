@@ -20,7 +20,7 @@
   {
     "image": "/costar_logo.jpeg",
     "company": "CoStar Group - Homes.com",
-    "role": "Software Engineering Intern",
+    "role": "Software Engineer Intern",
     "url": "https://www.example.com/",
     "description": "Refactored an internal developer tool for Homes.com, and integrated it into the main platform allowing automatic data decryption, quick links for user management, and a favorites database—streamlining the workflow and resulting in a 50% reduction in developer hours for specific tasks.",
     "location": "Irvine, California",
