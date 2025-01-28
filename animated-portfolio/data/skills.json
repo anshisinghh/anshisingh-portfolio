@@ -114,5 +114,9 @@
   {
     "name": "Pandas",
     "icon": "logos:pandas"
+  },
+  {
+    "name": ".NET",
+    "icon": "logos:dot-net"
   }
 ]
