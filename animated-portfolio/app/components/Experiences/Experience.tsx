@@ -42,7 +42,9 @@ const Experience = ({
               <p className="text-sm md:text-base text-gray-500">{dates}</p>
             </div>
             <div className="flex justify-between items-center">
-              <p className="text-sm md:text-base text-gray-500 font-semibold">{company}</p>
+              <p className="text-sm md:text-base text-gray-500 font-semibold">
+                {company}
+              </p>
               <p className="text-sm md:text-base text-gray-500">{location}</p>
             </div>
           </div>

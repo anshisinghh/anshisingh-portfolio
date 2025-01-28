@@ -35,7 +35,14 @@
     "title": "Ride Fare Predictor",
     "url": "https://www.example.com",
     "description": "Developed a machine learning model to predict ride fares based on features like distance, time, and traffic conditions. Preprocessed datasets, performed feature engineering, and implemented a regression model using TensorFlow and Keras. Evaluated model performance and utilized Python libraries such as Pandas, NumPy, and Scikit-learn for data processing.",
-    "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras", "logos:pandas", "logos:numpy", "skill-icons:scikitlearn-dark"]
+    "languageIcons": [
+      "logos:python",
+      "logos:tensorflow",
+      "logos:keras",
+      "logos:pandas",
+      "logos:numpy",
+      "skill-icons:scikitlearn-dark"
+    ]
   },
   {
     "thumbnail": "/flix_app_thumbnail.png",
@@ -49,8 +56,6 @@
     "title": "Would You Rather App",
     "url": "https://www.example.com",
     "description": "Social Media App.",
-    "languageIcons": [
-      "logos:swift", "logos:figma", "logos:git"
-    ]
+    "languageIcons": ["logos:swift", "logos:figma", "logos:git"]
   }
 ]
