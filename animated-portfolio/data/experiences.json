@@ -6,16 +6,7 @@
     "description": "Incoming Software Engineer.",
     "location": "Seattle, Washington",
     "dates": "July 2025",
-    "icon": [
-      {
-        "name": "Oracle",
-        "skills": ["logos:oracle"]
-      },
-      {
-        "name": "OCI",
-        "skills": ["bx:cloud"]
-      }
-    ]
+    "languageIcons": ["logos:oracle", "bx:cloud"]
   },
   {
     "image": "/wic_logo.png",
@@ -24,12 +15,7 @@
     "description": "Organized and led project teams for 60+ members each quarter, focusing on web development. Developed a 10-week activity plan and conducted weekly technical workshops on HTML, CSS, JavaScript, APIs, and Figma.",
     "location": "Irvine, California",
     "dates": "January 2024 - Present",
-    "icon": [
-      {
-        "name": "Leadership",
-        "skills": ["el:adult"]
-      }
-    ]
+    "languageIcons": ["el:adult"]
   },
   {
     "image": "/costar_logo.jpeg",
@@ -38,39 +24,15 @@
     "description": "Refactored an internal developer tool for Homes.com, and integrated it into the main platform allowing automatic data decryption, quick links for user management, and a favorites database—streamlining the workflow and resulting in a 50% reduction in developer hours for specific tasks.",
     "location": "San Diego, California",
     "dates": "June 2024 - August 2024",
-    "icon": [
-      {
-        "name": "Vue.js",
-        "skills": ["logos:vue"]
-      }, 
-      {
-        "name": "C#",
-        "skills": ["logos:c-sharp"]
-      },
-      {
-        "name": ".NET",
-        "skills": ["logos:dot-net"]
-      },
-      {
-        "name": "TypeScript",
-        "skills": ["logos:typescript"]
-      },
-      {
-        "name": "DynamoDB",
-        "skills": ["logos:aws-dynamodb"]
-      },
-      {
-        "name": "SCSS",
-        "skills": ["logos:sass"]
-      },
-      {
-        "name": "Selenium",
-        "skills": ["logos:selenium"]
-      },
-      {
-        "name": "Azure",
-        "skills": ["logos:microsoft-azure"]
-      }
+    "languageIcons": [
+      "logos:vue",
+      "logos:c-sharp",
+      "logos:dot-net",
+      "logos:typescript",
+      "logos:aws-dynamodb",
+      "logos:sass",
+      "logos:selenium",
+      "logos:microsoft-azure"
     ]
   }
 ]

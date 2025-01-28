@@ -1,15 +1,7 @@
-"use client";
-
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Image from "next/image";
 import { Icon } from "@iconify/react";
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
 import Reveal from "../Reveal";
-
-type IconProps = {
-  name: string;
-  skills: string[];
-};
 
 type Props = {
   id: number;
@@ -19,7 +11,7 @@ type Props = {
   description: string;
   location: string;
   dates: string;
-  icon: IconProps[];
+  languageIcons: string[]; 
 };
 
 const Experience = ({
@@ -30,29 +22,8 @@ const Experience = ({
   role,
   description,
   dates,
-  icon,
+  languageIcons,
 }: Props) => {
-  const ref = useRef<HTMLDivElement>(null);
-
-  const xDistance = useMotionValue(0);
-  const yDistance = useMotionValue(0);
-  const mask = useMotionTemplate`radial-gradient(100px 100px at ${xDistance}px ${yDistance}px, #000, transparent)`;
-
-  const handleMouseMove = (e: MouseEvent) => {
-    if (!ref.current) return;
-
-    const clientRect = ref.current.getBoundingClientRect();
-    xDistance.set(e.x - clientRect.x);
-    yDistance.set(e.y - clientRect.y);
-  };
-
-  useEffect(() => {
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-    };
-  }, []);
-
   return (
     <Reveal initialX={id % 2 === 0 ? -60 : 60} delay={id * 0.5}>
       <div className="relative flex items-start">
@@ -81,20 +52,9 @@ const Experience = ({
             </div>
           </div>
           <p className="text-sm md:text-base">{description}</p>
-          <div className="relative flex gap-2">
-            {icon.map((item, index) => (
-              <div
-                key={index}
-                className="flex items-center p-1.5 gap-2 border-primary border rounded-lg"
-              >
-                <motion.div
-                  ref={ref}
-                  className="absolute inset-0 border-2 border-purple-300 rounded-lg"
-                  style={{ maskImage: mask, WebkitMaskImage: mask }}
-                ></motion.div>
-                <Icon icon={item.skills[0]} width={20} height={20} />
-                <p className="text-sm">{item.name}</p>
-              </div>
+          <div className="flex flex-row gap-[11px]">
+            {languageIcons.map((icon, iconId) => (
+              <Icon icon={icon} key={iconId} width={24} height={24} />
             ))}
           </div>
         </div>
