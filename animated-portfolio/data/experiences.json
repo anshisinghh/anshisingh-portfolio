@@ -9,7 +9,11 @@
     "icon": [
       {
         "name": "Oracle",
-        "skills": ["ci:oracle"]
+        "skills": ["logos:oracle"]
+      },
+      {
+        "name": "OCI",
+        "skills": ["bx:cloud"]
       }
     ]
   },
@@ -23,7 +27,7 @@
     "icon": [
       {
         "name": "Leadership",
-        "skills": []
+        "skills": ["el:adult"]
       }
     ]
   },
@@ -36,12 +40,36 @@
     "dates": "June 2024 - August 2024",
     "icon": [
       {
+        "name": "Vue.js",
+        "skills": ["logos:vue"]
+      }, 
+      {
+        "name": "C#",
+        "skills": ["logos:c-sharp"]
+      },
+      {
+        "name": ".NET",
+        "skills": ["logos:dot-net"]
+      },
+      {
+        "name": "TypeScript",
+        "skills": ["logos:typescript"]
+      },
+      {
+        "name": "DynamoDB",
+        "skills": ["logos:aws-dynamodb"]
+      },
+      {
+        "name": "SCSS",
+        "skills": ["logos:sass"]
+      },
+      {
         "name": "Selenium",
         "skills": ["logos:selenium"]
       },
       {
-        "name": "Vue.js",
-        "skills": ["logos:vue"]
+        "name": "Azure",
+        "skills": ["logos:microsoft-azure"]
       }
     ]
   }

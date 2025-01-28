@@ -24,13 +24,6 @@
     ]
   },
   {
-    "thumbnail": "/food_classifier_thumbnail.png",
-    "title": "Food Image Classifier",
-    "url": "https://www.example.com",
-    "description": "Built a convolutional neural network (CNN) to classify 101,000 food images with 75% accuracy. Leveraged TensorFlow and Keras for model design, training, and deployment.",
-    "languageIcons": ["logos:python", "logos:tensorflow", "logos:keras"]
-  },
-  {
     "thumbnail": "/ride_fare_thumbnail.png",
     "title": "Ride Fare Predictor",
     "url": "https://www.example.com",
@@ -43,6 +36,13 @@
       "logos:numpy",
       "skill-icons:scikitlearn-dark"
     ]
+  },
+  {
+    "thumbnail": "/bridge_evaluation_thumbnail.png",
+    "title": "Bridge Evaluation Backend",
+    "url": "https://www.example.com",
+    "description": "idk",
+    "languageIcons": ["logos:postgresql", "logos:typescript"]
   },
   {
     "thumbnail": "/flix_app_thumbnail.png",
