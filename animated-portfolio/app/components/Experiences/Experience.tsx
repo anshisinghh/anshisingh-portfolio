@@ -8,7 +8,7 @@ type Props = {
   image: string;
   company: string;
   role: string;
-  url: string;
+  url?: string;
   description: string;
   location: string;
   dates: string;
