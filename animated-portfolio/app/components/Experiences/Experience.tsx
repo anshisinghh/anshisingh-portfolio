@@ -69,13 +69,16 @@ const Experience = ({
                   <h3 className="text-xl font-bold">{role}</h3>
                 )}
               </div>
-              <p className="text-sm md:text-base text-gray-500">{dates}</p>
+              <p className="hidden md:block text-sm md:text-base text-gray-500">{dates}</p>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-center">
               <p className="text-sm md:text-base text-gray-500 font-semibold">
                 {company}
               </p>
-              <p className="text-sm md:text-base text-gray-500">{location}</p>
+              <div className="flex flex-col md:flex-row md:items-center md:gap-4">
+                <p className="text-sm md:text-base text-gray-500 md:hidden">{dates}</p>
+                <p className="text-sm md:text-base text-gray-500">{location}</p>
+              </div>
             </div>
           </div>
           <p className="text-sm md:text-base">{description}</p>
