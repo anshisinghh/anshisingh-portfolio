@@ -36,10 +36,19 @@ const Contact = () => {
       >
         <div className="flex flex-col gap-5 items-center">
           <h2 className="font-semibold text-[22px] md:text-[40px] md:max-w-[462px]">
-            Get in Touch
+            Contact Me
           </h2>
-          <div className="highlight text-xl">
-            Irvine, CA | anshisingh730@gmail.com | (949) 353-4274
+          <div className="flex flex-col md:flex-row items-center highlight font-semibold text-[22px] md:text-xl gap-x-2">
+            <p>Irvine, CA |</p>
+            <a
+              href="mailto:anshisingh730@gmail.com"
+              className="hover:underline"
+            >
+              anshisingh730@gmail.com |
+            </a>
+            <a href="tel:+19493534274" className="hover:underline">
+              (949) 353-4274
+            </a>
           </div>
           <SocialLinks />
         </div>
